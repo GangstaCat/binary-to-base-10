@@ -39,7 +39,7 @@ def calcBin():
     base10Result = var1 * 1 + var2 * 2 + var3 * 4 + var4 * \
         8 + var5 * 16 + var6 * 32 + var7 * 64 + var8 * -128
 
-    print(base10Result)
+    print(f"{binString} is {base10Result} in base 10.")
 
 
 calcBin()
