@@ -37,9 +37,12 @@ def calcBin():
     var8 = binStringArr[0]
 
     base10Result = var1 * 1 + var2 * 2 + var3 * 4 + var4 * \
+        8 + var5 * 16 + var6 * 32 + var7 * 64 + var8 * 128
+    base10Result2 = var1 * 1 + var2 * 2 + var3 * 4 + var4 * \
         8 + var5 * 16 + var6 * 32 + var7 * 64 + var8 * -128
 
-    print(f"{binString} is {base10Result} in base 10.")
+    print(f"{binString} is {base10Result} in base 10")
+    print(f"{binString} is {base10Result2} in base 10 using signed 2's complement.")
 
 
 calcBin()
